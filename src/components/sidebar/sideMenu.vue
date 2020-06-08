@@ -82,7 +82,7 @@ export default {
       this.setOpenMenu();
     },
     setMenus() {
-      const userlevel = this.$store.getters.getUserLevel;
+      const userlevel = 10;
       this.menus.forEach(menu => {
         menu.links.forEach(link => {
           link.show_menu = link.levels.includes(userlevel);

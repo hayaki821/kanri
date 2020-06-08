@@ -283,7 +283,7 @@ export default {
   created() {
     // getters.getUserLevelを監視
     // ユーザーレベルが取れ次第変更がかかる。
-    (this.userLevel = this.$store.getters.getUserLevel),
+    (this.userLevel = 10),
       this.$store.watch(
         (state, getters) => getters.getUserLevel,
         (newValue, oldValue) => {
