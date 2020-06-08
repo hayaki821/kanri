@@ -1,7 +1,7 @@
 <template>
   <div class="container pt-5 bg-white">
     <h1 class="display-5 title-cs">
-      <font-awesome-icon icon="tachometer-alt" class="title-icon" />管理システム メニュー
+      <font-awesome-icon icon="tachometer-alt" class="title-icon" />管理システム
     </h1>
     <hr />
     <b-row>
